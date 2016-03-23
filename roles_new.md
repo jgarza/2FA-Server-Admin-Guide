@@ -15,4 +15,90 @@ This directly determines which roles show up in the Edit User screen (see Sectio
 privileges. This directly determines which users show up in the User Lookup screen (see Section 7.1 for more information). For example, if you have a certain User role called “Executives” and are creating a special Helpdesk group called “Executives Helpdesk”, you can assign the Executive Helpdesk role to only manage users with the Executives role. This can be used to create unique role separation between management of different user groups/roles. 
 7.	Select the privileges that are most appropriate for your new role by clicking the associated checkbox.
 8.	Click Create Role to commit your changes or Cancel to exit the menu. 
-The following lists reflect the complete range of rights that can be assigned to a role
+
+The following lists reflect the complete range of rights that can be assigned to a role:
+
+#### Manage Authentication Methods
+
+Functions include all administrative tasks associated with individual logon methods supported by 2FA ONE:
+
+* Edit Method
+* Edit Method Settings
+* Manage Profiles
+
+
+
+#### Manage Authentication Sets
+
+Functions include all administrative tasks associated with managing Authentication Sets:
+
+* New Set
+* Edit Set
+  * Edit Set Name
+  * Edit Set Methods
+  * Edit Set Workflow Order
+  * Edit Set Use for Temp Access
+  * Edit Set Temp Access Order
+* Delete Set
+
+
+
+#### Manage Roles
+
+Functions include assigning and managing user and administrative roles within 2FA ONE. Role management is a highly comprehensive method of delegating permissions within 2FA ONE and establishing a separation of duties within the system:
+
+* New Role
+* Edit Role
+  * Edit Role Name
+  * Edit Role Function
+  * Edit Role Assignment Rights
+  * Edit Role Modification Rights
+  * Edit Role LDAP User Group Modification Rights
+* View Members
+* Delete Role
+
+
+
+#### Manage Users
+
+Functions include all administrative tasks associated with user lifecycle management and personal settings. Virtually every 2FA ONE administrator will have some level of responsibility for user management:
+
+* New User
+* Edit User
+  * Edit User Name
+  * Edit User Domain
+  * Edit User LDAP Unique Identifier
+  * Edit User Role
+  * Edit User Auth Set
+  * Edit User Profiles
+  * Edit User Languages
+  * Edit User Email
+  * Set User State
+* Deactivate User
+* Reactivate User
+* Delete User
+* Generate Authorization Code
+* Generate Offline PIN Unblock
+* Enroll on Behalf
+
+
+
+#### Configure System
+
+Functions include general system administration for 2FA ONE Server:
+
+* Add New User License
+* Activate Server
+* Deactivate User
+* Edit User Notifications
+* Manage Secured Applications
+
+
+
+#### Best Practices
+You should limit the number of administrators with full permissions to manage Authentication Methods and Sets as well as manage Roles. 
+
+By limiting the scope of each role you minimize the opportunity for
+an unauthorized administrator to create users and issue unauthorized credentials to users. 
+
+The ability to assign a role to a user should be granted only to a security group or the highest level of administrative user group.
