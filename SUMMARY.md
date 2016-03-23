@@ -79,6 +79,22 @@
     * [Auto Enrollment](global_auto_enrollment.md)
     * [Update Database Settings](global_database.md)
     * [Update Mail Server Settings](global_mail.md)
+  * [Alerts](settings_alerts.md)
+  * [Publish URL](settings_publish_url.md)
+  * [User Licenses](user_licenses.md)
+  * [User Licenses Overview](license_overview.md)
+  * [Add User Licenses](license_add.md)
+* [Administering 2FA ONE: Tools](tools.md)
+  * Key Backup Tool
+    * [Server Key Backup to File](tools_backup_file.md)
+    * [Server Key Restore from File](tools_restore_file.md)
+    * [Server Key Backup to Smart Card](tools_backup_scard.md)
+    * [Server Key Restore from File](tools_restore_scard.md)
+  * [Key Rollover Tool](tools_key_rollover.md)
+  * [Recycle Card](recycle_card.md)
+* [Troubleshooting 2FA ONE: Error Logging](error_logging.md)
+
+
 
 
 
