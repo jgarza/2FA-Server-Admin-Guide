@@ -15,6 +15,7 @@
     * [Bulk Import New Users](new_user_bulk.md)
     * [Bulk Migrate Users](new_user_migrate.md)
     * [Configure Auto Enrollment](auto_enrollment.md)
+  * [Edit / Modify User Accounts](users_edit.md)
   * [Deleting User Accounts](delete_users.md)
   * [User Reports](user_reports.md)
   * [Enroll on Behalf](enroll_behalf.md)
