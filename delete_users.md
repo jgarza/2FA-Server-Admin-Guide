@@ -13,6 +13,13 @@ The Delete Users submenu is used to permanently delete users from 2FA ONE.
 #### You can either:
 * Enter as much of the known user information in the User name, Domain and Email Fields and click Find This User.
 * Or, Launch the Directory Lookup Tool and navigate to the user.
+
+![Directory Lookup Tool](images/ldapLookup.png)
+
+* When you have found the user, all similar user names appear in a list on the right side of the screen.
+
+![Find User](images/findUser.png)
+
 * Select from the list the user which you would like to delete.
 * The 2FA ONE Server Users page will appear, requesting that you confirm deletion of the user. 
 * Select Delete User to confirm the deletion or Back to List to cancel.
