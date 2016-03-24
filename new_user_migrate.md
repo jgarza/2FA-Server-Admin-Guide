@@ -2,6 +2,8 @@
 
 Bulk Migrate Users enables you to migrate users’: email, language, AuthSet, Role, and User State using a CSV file. 
 
+![Bulk Migrate Users](images/bulkMigrateUser.png)
+
 ### To use the Bulk Migrate users by CSV Option: 
 * Select the Bulk Migrate submenu.
 * Enter the location of a CSV file on the Bulk Migrate page to load, or click Browse to navigate to the file.
