@@ -2,6 +2,8 @@
 
 Click View All Applications to view all Secured Application templates currently assigned to users. 
 
+![View All Apps](images/ssoViewAll.png)
+
 Click Users next to an application to see the list of users who currently have that template assigned. The Defined column indicates that their secured application template has been successfully configured with their user data Defined or no user data has been entered, Undefined. 
 
 Templates assigned to users with predefined AD data, may appear as Undefined until the template has been used for the first time.
