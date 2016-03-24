@@ -2,6 +2,8 @@
 
 The Magstripe submenu enables you to configure profiles and policies for Magstripe and Barcode logon.
 
+![Magstripe list](images/magstripeList.png)
+
 Within the Magstripe submenu there are four submenus, they are:
 
 1.	**Profile List:** Provides an overview of the configured Magstripe Profiles, including the configured PIN policy, card behavior options, and PIN required/not-required settings.
@@ -32,6 +34,8 @@ The Default profile contains the following settings:
 The PIN policy sub-menu provides the ability for organizations to create custom PIN policies and edit out-of-the-box PIN policies. 
 
 By default there are four PIN policies with varying degrees of security from High to Low. 
+
+![Magstripe Pin Policies](images/magstripePinPolicies.png)
 
 The default PIN Policy contains a policy based upon best practices. PIN Policy can be edited or you can create your own PIN policy. 
 
