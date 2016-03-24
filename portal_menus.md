@@ -11,6 +11,7 @@
 7. **Policies:** This tab provides centralized management of 2FA One Client policies and Secured Application templates.
 8. **Settings:** This tab is used to access Global Settings, view and add User Licenses.
 
+![Admin Portal Dashboard](images/adminPortalDashboard.png)
 ### Navigation Links 
 1. **Logout:** terminates session
 2. **Help:** provides access to this guide. The “?” symbol appears on menu headers. Click the “?” to be forwarded to topics within this guide.
@@ -29,6 +30,7 @@ The system dashboard provides a quick snap shot of global user information:
 
 
 ### Workflow Shortcuts
+
 Workflow shortcuts provide quick links to commonly used tasks. These quick-links relate to various portions of the main menu.
 
 ### Miscellaneous
