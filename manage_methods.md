@@ -4,6 +4,8 @@ The Methods menu allows you to configure and manage the types of authentication 
 
 _Within the Methods menu, there are nine default submenus:_
 
+![Method List](images/methodList.png)
+
 
 **Overview:** This sub-menu provides an overview of the authentication methods and associated configurations that are currently installed and configured within 2FA One Server.
 
