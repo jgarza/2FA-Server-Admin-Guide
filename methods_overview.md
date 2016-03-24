@@ -10,4 +10,6 @@ Take care when increasing the limit as the higher the number, the lower the over
 
 However, the lower the number, the higher the risk will be that users who fail a logon attempt, will be deactivated.
 
+![Method List](images/methodList.png)
+
 **Note:** Setting the attempt limit on methods only affects the number of invalid attempts by a user before the user’s account is locked out of 2FA One Server. Once locked out, the user’s state will be automatically set to Deactivated.
