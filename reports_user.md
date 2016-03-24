@@ -4,6 +4,8 @@ The User Reports menu enables you to search for users by State, by Authenticatio
 
 ### To run a report by State:
 
+![Reports By State](images/reportByState.png)
+
 1.	Select Reports tab.
 2.	Select the By State submenu.
 3.	Select the states that you would like to report on by checking the appropriate check boxes. 
@@ -16,6 +18,8 @@ The User Reports menu enables you to search for users by State, by Authenticatio
 
 ### To run a report by Authentication Set:
 
+![Reports by set](images/reportBySet.png)
+
 1.	Select the Reports tab.
 2.	Select the By Authentication Set submenu.
 3.	Select the authentication sets that you would like to report on by checking the appropriate check boxes.
@@ -27,7 +31,7 @@ The User Reports menu enables you to search for users by State, by Authenticatio
 
 
 ### To run a report by Role:
-
+![Report by role](images/reportByRole.png)
 1.	Select the Reports tab.
 2.	Select the By Role submenu.
 3.	Select the Roles that you would like to report on by checking the appropriate check boxes.
