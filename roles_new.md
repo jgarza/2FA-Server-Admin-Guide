@@ -20,6 +20,8 @@ The following lists reflect the complete range of rights that can be assigned to
 
 #### Manage Authentication Methods
 
+![Role Methods](images/roleManageMethods.png)
+
 Functions include all administrative tasks associated with individual logon methods supported by 2FA ONE:
 
 * Edit Method
@@ -29,6 +31,8 @@ Functions include all administrative tasks associated with individual logon meth
 
 
 #### Manage Authentication Sets
+
+![Role Sets](images/roleManageSets.png)
 
 Functions include all administrative tasks associated with managing Authentication Sets:
 
@@ -45,6 +49,8 @@ Functions include all administrative tasks associated with managing Authenticati
 
 #### Manage Roles
 
+![Role Roles](images/roleManageRoles.png)
+
 Functions include assigning and managing user and administrative roles within 2FA ONE. Role management is a highly comprehensive method of delegating permissions within 2FA ONE and establishing a separation of duties within the system:
 
 * New Role
@@ -60,6 +66,8 @@ Functions include assigning and managing user and administrative roles within 2F
 
 
 #### Manage Users
+
+![Role Users](images/roleManageUsers.png)
 
 Functions include all administrative tasks associated with user lifecycle management and personal settings. Virtually every 2FA ONE administrator will have some level of responsibility for user management:
 
@@ -84,6 +92,8 @@ Functions include all administrative tasks associated with user lifecycle manage
 
 
 #### Configure System
+
+![Role Configure](images/roleManageConfigure.png)
 
 Functions include general system administration for 2FA ONE Server:
 
