@@ -4,6 +4,8 @@ The Directory Mapping sub-menu provides the capability to map 2FA ONE Server Rol
 
 You do not have to map every role to an AD group, you may elect to map only one role to an AD group. 
 
+![Directory Mapping](images/directoryMapping.png)
+
 To map a 2FA ONE Server Role to an Active Directory Group:
 1.	Check the Enable Directory Mapping check box. 
 2.	Enter the corresponding Directory Group Name (full DN) in the text box to the right of the appropriate 2FA ONE Server Role. When this function is enabled, any user who is a member of the Directory Group will be treated as a member of the 2FA ONE Server Role. Alternatively, you can click the Directory Lookup Tool icon and navigate to the desired Active Directory group. 
