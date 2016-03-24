@@ -4,6 +4,8 @@ The Question & Answer sub-menu enables you to establish, configure, enable, and 
 
 This is also often referred to as Knowledge-Based Authentication.
 
+![QA Profile List](images/qaProfileList.png)
+
 Within the Question & Answer submenu, there are five submenus:
 
 1.	**Profile List:** Provides an overview of the configured Q&A Profiles. Available configurations include:
@@ -48,9 +50,13 @@ Question and Answer Policy is used to set a number of variables, including:
 
 The Question and Answer Policy submenu provides the ability for organizations to create custom Q&A policies and edit out-of-the-box policies. 
 
+![QA Policies](images/qaPolicies.png)
+
 By default there are two Q&A policies with varying degrees of security from High to Low. The default Policy contains a policy based upon best practices. 
 
 Q&A policies can be edited or you can create your own Q&A policy by click on the New Policy link. Q&A policy is assigned to a Profile that can be assigned to a Set; then, the Set can be assigned to a user.
+
+![QA Questions Sets](images/qaQuestionSets.png)
 
 **Note:**	If you create new questions within the admin portal. Those questions will not be available for your users to register with. 
 
@@ -62,6 +68,8 @@ Most of our customers find that the 27 default questions we provide are sufficie
 
 In order to assign a new Profile to a Set you must first create the new Profile. To create a new Profile, click the New Profile link and the New Q&A Profile pop-up will appear. 
 
+![QA Profile](images/qaNewProfile.png)
+
 Enter a Name and Description for the new profile, select the desired question set and Q&A Policy. 
 
 Once you have made your desired selection, click the Add button.
@@ -69,6 +77,8 @@ Once you have made your desired selection, click the Add button.
 ### New Policy
 
 In order to assign a new Policy to a Profile you must first create the new Q&A Policy. To create a new Q&A Policy, click the New Policy link, and the Create Question and Answer Policy pop-up will appear. 
+
+![QA New Policy](images/qaNewPolicy.png)
 
 You must name the new policy and select your desired settings.
 
