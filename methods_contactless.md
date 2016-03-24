@@ -4,6 +4,8 @@ The Contactless Card sub-menu enables you to configure profiles and policies for
 
 Within the Contactless Card submenu there are four submenus, they are:
 
+![Contactless List](images/contactlessList.png)
+
 1.	**Profile List:** Provides an overview of the configured Contactless Profiles, including the configured PIN
 policy, card behavior options, and PIN required/not-required settings.
 2.	**PIN Policies:** Provides the ability for organizations to establish PIN usage policies and selection criteria for securing contactless cards protected with a PIN.
@@ -14,6 +16,8 @@ Sets and assigned to users.
 ### Profile List
 
 By default, 2FA ONE Server has a single profile for contactless cards. 
+
+![Contactless Profile](images/contactlessProfile.png)
 
 The Default profile contains the following settings:
 
