@@ -8,4 +8,3 @@ Following the expiry of the Trial Version you will continue to have access to th
 
 2FA ONE Server manages licenses on a per-user basis. User Licenses are consumed for every user added into the system, and released when a user is deactivated or deleted.
 
-The Overview menu displays information about the number of licenses available, consumed and pending consumption.
