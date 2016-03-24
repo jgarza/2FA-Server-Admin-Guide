@@ -20,6 +20,8 @@ Within the OTP submenu there are six submenus, they are:
 
 By default, 2FA ONE Server has a single profile for OTP Tokens. The Default profile contains the following settings:
 
+![OTP Profile List](images/otpProfileList.png)
+
 Default OTP Policy of:
 1. Synchronization Windows = 10
 2. Base retry timeout, sec = 5
@@ -30,14 +32,21 @@ Default OTP Policy of:
 
 The OTP policy submenu provides the ability for organizations to create custom OTP policies and edit the out-of-the-box OTP Default policy. 
 
+![OTP PIN Policies](images/otpPolicyList.png)
+
 By default there is only one OTP policy. The default OTP Policy contains a policy based upon best practices. The OTP Policy can be edited or you can create your own OTP policy. 
 
 Once created the OTP policy is assigned to a Profile that can be assigned to a Set; then, the Set can be assigned to a user. with what we recommend for best case.
 
 ### Tokens
+
 The OTP Tokens submenu provides the ability for organizations to import their tokens within 2FA ONE Server. 
 
+![OTP Token List](images/otpTokenList.png)
+
 This allows the use of those tokens within our environment. By default we have the nagraID106E created, which can be used when importing your token csv file. 
+
+![OTP Import Tokens](images/otpImportTokens.png)
 
 To import your tokens, you will need to do the following:
 
@@ -55,12 +64,16 @@ You will receive import successful message and now your tokens are ready for use
 
 In order to assign a new Profile to a Set you must first create the new Profile. To create a new Profile, click the New Profile link and the New OTP Profile pop-up will appear. 
 
+![OTP New Profile](images/otpNewProfile.png)
+
 Enter a Name and Description for the new profile, select the desired OTP Policy. Once you have made your desired selection, click the Add button.
 
 
 ### New PIN Policy
 
 In order to assign a new OTP Policy to a Profile you must first create the new OTP Policy. To create a new OTP Policy, click the New Policy link, and the Create New OTP Policy pop-up will appear. 
+
+![OTP New Policy](images/otpNewPolicy.png)
 
 You must name the new policy and select your desired settings.
 
@@ -73,6 +86,8 @@ You must name the new policy and select your desired settings.
 ### New Token Type
 
 In order to import new OTP Tokens you must first create a new OTP Token. By default we have nagraID106E available for importing your tokens in the Tokens portion of this section. 
+
+![OTP New Token](images/otpNewToken.png) 
 
 You can utilize just this one for current and future tokens you import. If you would like to create custom Token Type click the New Token Type link, and the Create New OTP Token Type pop-up will appear. 
 
