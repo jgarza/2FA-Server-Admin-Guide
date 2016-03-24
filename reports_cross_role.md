@@ -2,6 +2,8 @@
 
 The Cross Role Permissions report allows you to easily audit what other roles any given role can Modify, Assign or Manage.
 
+![Cross Role Permissions](images/crossRolePermissions.png)
+
 To run a Cross Role Permissions Report:
 
 1.	Select Reports submenu
