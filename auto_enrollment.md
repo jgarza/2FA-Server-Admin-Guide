@@ -1,5 +1,12 @@
 # Configure Auto-Enrollment
-Auto Enroll enables you to configure auto enrollment for users who exist in Active Directory. Each user who accesses 2FA ONE Server without having already been setup in the system will automatically be enrolled with the default values set here. Only one set of defaults is possible. Manually added users via Add New User or Bulk Import take precedence over users who are added as part of Auto Enroll.
+
+Auto Enroll enables you to configure auto enrollment for users who exist in Active Directory. 
+
+Each user who accesses 2FA ONE Server without having already been setup in the system will automatically be enrolled with the default values set here. 
+
+Only one set of defaults is possible. Manually added users via Add New User or Bulk Import take precedence over users who are added as part of Auto Enroll.
+
+![Auto Enrollment](images/autoEnrollment.png)
 
 ### To Setup Auto-Enrollment:
 * Select the Setup Auto Enroll submenu.
