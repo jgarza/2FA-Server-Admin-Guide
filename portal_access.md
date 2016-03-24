@@ -10,9 +10,17 @@ Note: The ONE_sys_admin account is the account created during the Build 2FA One 
 
 * To open the portal, go to Internet Explorer and type in http://[servername].[yourdomain].[topleveldomain]/ One/admin_portal where servername is the name of the IIS server on which 2FA One Server is hosted. The 2FA One Server Logon screen appears.
   * *Note:* The domain field is used for multi-domain support, which is useful when duplicate account names exist within different domains. In most cases the domain field may remain blank. In the event of a conflict, the user will be able to select his/her name from a list of user names.
+
+![Open The Portal](images/oneValidationPortal.png)
+
 * Because this is the first time that the Administrator’s Portal has been logged onto, Microsoft® Integrated Authentication will not work. 2FA One Server has no current knowledge of accounts existing within your domain. You must enter ONE_sys_admin in the user name field and click Go.
   * Do not enter a domain, as the ONE_sys_admin account is not known within the domain.
+![ONE_sys_admin Validation](images/oneValidationAdmin.png)
+
 * Next, enter the password you selected for this account during the installation process and click Validate.
+
+![ONE_sys_admin Password](images/oneValidationPassword.png)
+
 * You will be granted Access to the 2FA One Server Administrator Portal
 
 
