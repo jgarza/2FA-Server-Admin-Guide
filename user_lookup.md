@@ -9,6 +9,8 @@ Enter as little or as much of the known user information in the:
 * Click 'Find This User'
 * Alternatively, you may use the Directory Look-Up Tool
 
+![User Lookup Menu](images/userLookup.png)
+
 **Note:** You may perform truncated searches, such as E, will bring up all users who’s name starts with the letter E.
 
 ### Directory Look-up Tool
