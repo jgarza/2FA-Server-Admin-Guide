@@ -1,8 +1,12 @@
 # Bulk Import Users
 
-Bulk Import Users enables you to import multiple users simultaneously using a CSV file, or by selecting an OU or group. To use the Bulk Import Users option:
+Bulk Import Users enables you to import multiple users simultaneously using a CSV file, or by selecting an OU or group. 
+
+To use the Bulk Import Users option:
+
 Select the Users>New Users>Bulk Import Users submenu.
 
+![Bulk Import Users](images/bulkImportUsers.png)
 
 ### To Import from CSV:
 * Enter the location of a CSV file on the Bulk Import Users page to load, or click Browse to navigate to the file.
