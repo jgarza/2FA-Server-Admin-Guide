@@ -2,14 +2,16 @@
 
 The Biometric submenu enables you to configured profiles and policies for Biometric authentication. 
 
+![Biometric List](images/biometricList.png)
+
 Within the Biometric menu, there are four submenus.
 
-1.	Profile List – Provides an overview of the configured Contactless Profiles, including the configured PIN
+1.	**Profile List** – Provides an overview of the configured Contactless Profiles, including the configured PIN
 policy, card behavior options, and PIN required/not-required settings.
-2.	PIN Policies – Provides the ability for organizations to establish PIN usage policies and selection criteria for securing contactless cards protected with a PIN.
-3.	New Profile – Provides the ability for organizations to create custom profiles that can pair PIN policy with
+2.	**PIN Policies** – Provides the ability for organizations to establish PIN usage policies and selection criteria for securing contactless cards protected with a PIN.
+3.	**New Profile** – Provides the ability for organizations to create custom profiles that can pair PIN policy with
 Sets and assigned to users.
-4.	New PIN Policy – Provides the ability to create custom PIN policies for contactless card authentication.
+4.	**New PIN Policy** – Provides the ability to create custom PIN policies for contactless card authentication.
 
 ### Profile List
 
@@ -28,6 +30,8 @@ The Default profile contains the following settings:
 The PIN policy sub-menu provides the ability for organizations to create custom PIN policies and edit out-of-the-box PIN policies. 
 
 By default there are four PIN policies with varying degrees of security from High to Low. 
+
+![Biometric Pin Policies](images/biometricPinPolicies.png)
 
 The default PIN Policy contains a policy based upon best practices. 
 
