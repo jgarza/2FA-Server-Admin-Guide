@@ -2,6 +2,9 @@
 
 1.	Once you have created a new set, you are ready to assign default or custom Method Profiles to the set. To accomplish, this you must select Edit from the Set List, and then select Edit Profiles.
 2.	The Edit Authentication Set dialog will appear. You will notice that the default profiles for the methods which have profiles are already selected. From this menu you may leave the default profile or assign any other available profile to your custom set.
+
+![Method Profiles](images/methodProfiles.png)
+
   3.	By default, only the Default Profiles for Question & Answer and Contactless are available. If you have created custom Profiles, they will also be available for selection. 
 3.	For Authentication Sets using the Question and Answer method you may also configure custom Profiles. 
 
