@@ -6,6 +6,8 @@ You may add multiple primary access methods to the primary access method list by
 
 You can only add one method to Secure Workflows.
 
+![New Set](images/newSet.png)
+
 
 1.	To create a new Authentication Set, you must first define a name for the new set and provide an optional description in the Name and Description fields.
 2.	In the Methods for Normal Access drop-down box, select a method for primary access, and then click Add Method. You can add additional methods by repeating this process.
