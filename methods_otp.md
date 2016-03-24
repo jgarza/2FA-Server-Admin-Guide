@@ -101,6 +101,8 @@ You must name the new policy and select your desired settings.
 
 The Notify Users section is for our Soft Token feature of OTP. 
 
+![Notify Users](images/notifyUsers.png)
+
 Within this section you can send a custom image url, input a support phone number and email address, the OTP PIN length and send them a message. 
 
 This will send a notification to all the users currently enrolled in Soft Token.
