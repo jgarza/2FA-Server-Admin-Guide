@@ -1,24 +1,37 @@
 # Edit / Modify User Accounts To view or edit user information:
+
 When you have found the user, all similar user names appear in a list on the right side of the screen.
+
+![user lookup](images/userLookup.png)
+
 Select from the list the user for which you need to perform administration.
-The Managing 2FA ONE Server Users page appears. From this screen, you can
-select Edit User, Back to List, Enroll on Behalf, or Generate Offline Unblock.
 
-Note: The Generate Offline Unblock button is only visible for users who enrolled via 2FA ONE Server with a mini-driver or .NET contact card.
+The Managing 2FA ONE Server Users page appears. From this screen, you can select Edit User, Back to List, Enroll on Behalf, or Generate Offline Unblock.
 
-Note: The Enroll on Behalf button is only enabled for users in the New or Replace Credential States with an Authentication Set for contact or contactless smart cards only. Enroll on Behalf is not enabled for users with AD, Q&A, or Emergency Access in their Authentication Sets.
+![Edit User](images/editUser.png)
 
-Select Edit User. The Edit a User dialogue box appears. From this dialogue
-box, you can perform all 2FA ONE Server user-centric administration. In addition to the user name, if the user is a domain user with an assigned e-mail address, the data will appear in the associated fields.
+**Note:** The Generate Offline Unblock button is only visible for users who enrolled via 2FA ONE Server with a mini-driver or .NET contact card.
+
+**Note:** The Enroll on Behalf button is only enabled for users in the New or Replace Credential States with an Authentication Set for contact or contactless smart cards only. Enroll on Behalf is not enabled for users with AD, Q&A, or Emergency Access in their Authentication Sets.
+
+Select Edit User. The Edit a User dialogue box appears. From this dialogue box, you can perform all 2FA ONE Server user-centric administration. 
+
+In addition to the user name, if the user is a domain user with an assigned e-mail address, the data will appear in the associated fields.
 
 The Language drop-down box enables you to set the language that will be
-assigned to the user within the User’s Portal. 
+assigned to the user within the User’s Portal.
+
+![Language Options](images/languageSelection.png)
 
 2FA ONE Server has integrated support for ten languages. They are: English, Spanish, French, German, Italian, Japanese, Korean, Portuguese, Russian, Chinese, and Czech. 
 
 For multi-language to function correctly, the Microsoft®MUI - Multilingual User Interface - http://en.wikipedia.org/wiki/Multilingual_User_Interface environment must be installed on the computer on which you are viewing 2FA ONE Server, and to view Asian languages, a language pack from at least one of the supported Asian languages must be installed.
 
-The Authentication Set drop-down box enables you to set the authentication set that will be assigned to the user. By default there are five sets enabled in 2FA ONE Server. These sets cannot be modified or deleted but new ones can be created.
+The Authentication Set drop-down box enables you to set the authentication set that will be assigned to the user. 
+
+![Edit a user](images/userEditOptions.png)
+
+By default there are five sets enabled in 2FA ONE Server. These sets cannot be modified or deleted but new ones can be created.
 
 ### Default Authentication Sets:
 **Smart Card Only:** Contact smart card enabled for Public Key Infrastructure logon to Windows.
@@ -32,8 +45,11 @@ The Authentication Set drop-down box enables you to set the authentication set t
 **Contactless and Emergency Access:**Contactless card enabled for logon to Windows in conjunction with 2FA ONE Client and Questions and Answers that are used for Secure Workflows within 2FA ONE Server and Emergency Access in conjunction with 2FA ONE Client
 
 
-The Role drop down box enables you to set the 2FA ONE Server Role that will
-be assigned to the user. Users can be set to any 2FA ONE Server Role previously defined within the system, for which the current administrator has role assignment permissions.
+### Default Roles
+
+The Role drop down box enables you to set the 2FA ONE Server Role that will be assigned to the user. Users can be set to any 2FA ONE Server Role previously defined within the system, for which the current administrator has role assignment permissions.
+
+### User State
 
 The Current User State drop down box enables you to set the user’s state within 2FA ONE. The user’s state defines the user’s experience within the User Portal.
 
@@ -66,13 +82,15 @@ credential will still be valid, such as their previously issued PKI certificate.
 After you have entered/edited the appropriate user information, click Save
 to commit the changes or Cancel to exit.
 
-If you elected to globally enable the Authorization Code, after you have saved your changes, the Authorization Code dialogue box will appear with the assigned authorization code. This only appears when 2FA ONE Server has
-detected changes that would normally require an authorization code to be
-presented by the user. You can either read or e-mail it the Authorization Code to the user.
+If you elected to globally enable the Authorization Code, after you have saved your changes, the Authorization Code dialogue box will appear with the assigned authorization code. 
+
+![Authorization Codes](images/authCode.png)
+
+This only appears when 2FA ONE Server has detected changes that would normally require an authorization code to be presented by the user. You can either read or e-mail it the Authorization Code to the user.
 
 Note: In the event an administrator makes a change within Edit User and clicks the “X” button on the top-right of the pop-up the application will warn the administrator that changes have not been saved.
 
-Note: The setting that allows you to email an Authorization Code is configured during the installation and setup process. Information on completing this setup is provided in the Installation and Setup Guide. 
+**Note:** The setting that allows you to email an Authorization Code is configured during the installation and setup process. Information on completing this setup is provided in the Installation and Setup Guide. 
 
 To Turn Auth Codes on or off, go to the Settings tab in 2FA ONE Server.
 
