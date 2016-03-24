@@ -78,7 +78,7 @@
    * [User Licenses Overview](license_overview.md)
    * [Add User Licenses](license_add.md)
 * [Administering 2FA ONE: Tools](tools.md)
-   * Key Backup Tool
+   * [Key Backup Tool](key_backup_tool.md)
        * [Server Key Backup to File](tools_backup_file.md)
        * [Server Key Restore from File](tools_restore_file.md)
        * [Server Key Backup to Smart Card](tools_backup_scard.md)
