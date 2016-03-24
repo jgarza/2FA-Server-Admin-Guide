@@ -2,6 +2,8 @@
 
 ## Logon Tab
 
+![Logon Tab](images/policyLogonTab.png)
+
 **Logon Experience:** Defines the logon tile options a user will be presented with in Windows logon and SharedWorkstation. Only the boxes checked will be displayed.
 
 **Emergency Access:** Defines the options available after successfully authenticating using the Emergency Access method. Only the options checked will be displayed.
@@ -19,6 +21,8 @@
 **RBA Show Notification:** Will notify the user logging in if RBA is needed.
 
 ## Shared Workstation Tab
+
+![Shared Workstation](images/policySharedWork.png)
 
 **Enable or Disable Shared Workstation mode**
 
@@ -113,7 +117,7 @@ Used in conjunction with the RDP InstantConnect feature, this defines the server
 Automatically locks shared workstation when any InstantConnect application is closed.
 
 ## Server / Sync Tab
-
+![Server Sync](images/policyServerSync.png)
 
 **Service URL:**
 Allows the ability to input multiple 2FA Servers for failover instances.
@@ -141,7 +145,7 @@ NetMotion VPN Credentials
 
 
 ## Hardware Tab
-
+![Hardware](images/policyHardware.png)
 
 **Enable Magstripe:** Enable or disable use of Magstripe
 
@@ -159,7 +163,7 @@ NetMotion VPN Credentials
 
 
 ## General Tab
-
+![General](images/policyGeneral.png)
 
 **Sounds:**
 When enabled, 2FA ONE Client will produce a sound when a card is presented and read.
