@@ -1,5 +1,5 @@
 # Manage Templates
-
+![Manage Tempates](images/ssoManageTemplates.png)
 Click Manage Template to view lookup policy by Domain, OU, or User. 
 
 Type the Distinguished name and click Lookup or use the AD Lookup tool to browse to the specific location. 
