@@ -2,6 +2,8 @@
 
 Reports by event log, allow you to view events forwarded to the server from properly configured clients. 
 
+![Event Logs](images/eventLogs.png)
+
 To run a report by Event Logs:
 
 1.	Select Reports tab.
