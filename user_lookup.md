@@ -20,3 +20,7 @@ In order to launch the Directory Look-up Tool:
 * The account which you are logged on to Windows with MUST have read access to Active Directory
 * And, the URL you are accessing must be in Trusted Sites.
 
+![Directory Lookup Tool](images/directoryLookupTool.png)
+
+
+** Note:** The 2FA One Server AD Lookup Tool supports a multi-domain forest; however, if a child domain is unavailable, the AD Lookup tool will take approximately 20 seconds to load for each child domain that cannot be connected
