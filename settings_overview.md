@@ -77,6 +77,8 @@ Auto Enroll refers to the ability to allow users which already exist in Active D
 
 Use this link to update settings related to your database, such as: Server Name, Database Name, ID, and Password.
 
+
+
 ### Update Mail Server Settings
 
 Use this link to update settings related to your mail server, such as: SMTP Server Name, Port, Default “From” Address, User name, and Password.
