@@ -1,6 +1,8 @@
 # Delegated Administration with Scope
 
-With Roles you can delegate a role that can only manage defined roles. For instance if you are a part of a global organization where administrators can only manage users within their assigned region, you can create a role named North American Administrators that can only manage users assigned the North American User role. 
+With Roles you can delegate a role that can only manage defined roles. 
+
+For instance if you are a part of a global organization where administrators can only manage users within their assigned region, you can create a role named North American Administrators that can only manage users assigned the North American User role. 
 
 ![Delegated Scope](images/delegatedScope.png)
 
