@@ -4,16 +4,13 @@
 
 This feature is useful for organizations that want to provide a centralized deployment of 2FA ONE or for specific users, such as executives, who normally do not perform such tasks.
 
-Requirements: 
-To perform this task the administrator must be assigned the role of ONE_sys_admin or Security Officer, or the function of Enroll on Behalf must be manually assigned to the Role for which the administrator is logged into 2FA ONE. 
+**Requirements:**
 
-By default, Admin and Helpdesk roles are not permitted to enroll on behalf of other users. 
-
-Additionally, Enroll on Behalf is only available to users with an Authentication Set of Smart Card Only or Contactless Only. 
-
-Enroll on Behalf is NOT enabled for users with Q&A, Emergency Access or Active Directory as a secondary method. 
-
-Finally, the system that you perform an Enroll on Behalf from must be set up the same way as a system on which users perform self-service enrollment. 
+* To perform this task the administrator must be assigned the role of ONE_sys_admin or Security Officer, or the function of Enroll on Behalf must be manually assigned to the Role for which the administrator is logged into 2FA ONE. 
+* By default, Admin and Helpdesk roles are not permitted to enroll on behalf of other users. 
+* Additionally, Enroll on Behalf is only available to users with an Authentication Set of Smart Card Only or Contactless Only. 
+* Enroll on Behalf is NOT enabled for users with Q&A, Emergency Access or Active Directory as a secondary method. 
+* Finally, the system that you perform an Enroll on Behalf from must be set up the same way as a system on which users perform self-service enrollment. 
 
 ###To enroll on the behalf of another user perform the following steps:
 
