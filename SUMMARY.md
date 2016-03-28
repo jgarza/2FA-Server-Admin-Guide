@@ -63,7 +63,6 @@
    * [Deprovision Templates](sso_deprovision_templates.md)
 * [Administering 2FA ONE: Settings](settings.md)
    * [Settings Overview](settings_overview.md)
-       * [Allow PingMe for OTP Users](pingme_allow.md)
        * [Require PIN for PingMe](pingme_pin.md)
        * [Allow Unauthenticated One-To-Many Biometric Match](biometric_one2many.md)
        * [Allow Synchronization of Non-Domain Users](synchronization_allow.md)
