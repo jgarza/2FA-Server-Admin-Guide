@@ -18,16 +18,16 @@ By default, 2FA ONE Server has a single profile for Magstripe cards.
 
 The Default profile contains the following settings:
 
-1.	Default PIN Policy of:
+1.	**Default PIN Policy** of:
   2.	Attempts before PIN becomes blocked = 3
   3.	Minimum PIN Length = 4
   4.	No more than three repeated characters
   5.	No more than three consecutive characters
-2.	Card Behavior set to:
+2.	**Card Behavior** set to:
   3.	TAP IN/OUT
   4.	Lock Workstation
-3.	PIN Use Policy set to – Require PIN
-4.	Secure Logon Password – No
+3.	**PIN Use Policy** set to – Require PIN
+4.	**Secure Logon Password** – No
 
 ### PIN Policy
 
