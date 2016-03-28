@@ -9,11 +9,10 @@ An account in the domain admin group has both of these permissions. If the accou
 ![AD Method 1](images/adMethod1.png)
 
 Click Edit to input or change the AD account information.
-1.	To configure the Active Directory Method you must enter the Distinguished Name (such as: dc=2FAONE,dc=local) of your Active Directory Forest and your method service account and service account password.
+1. To configure the Active Directory Method you must enter the Distinguished Name (such as: dc=2FAONE,dc=local) of your Active Directory Forest and your method service account and service account password. ![AD Method 2](images/adMethod2.png)
 
-![AD Method 2](images/adMethod2.png)
-
-2.	When you are done, click Save. Once you have configured the Active Directory Method, the screen will display the saved information and the capability to edit the saved information.
+2.	When you are done, click Save. 
+3.	Once you have configured the Active Directory Method, the screen will display the saved information and the capability to edit the saved information.
 
 ### Domain DNS Mapping
 
