@@ -2,13 +2,17 @@
 
 ## Logon Tab
 
-![Logon Tab](policyDescriptions_lognTab.png)
+![logon tab](images/policyDescriptions_lognTab.png)
 
 **Logon Experience:** Defines the logon tile options a user will be presented with in Windows logon and SharedWorkstation. Only the boxes checked will be displayed.
+
+**Disable Username & Password Tile:** Defines whether or not the Username and Password tile is displayed. The options are: Never, Only at Logon, At Logon & Unlock Screens, & Only at Unlock Screen
 
 **Emergency Access:** Defines the options available after successfully authenticating using the Emergency Access method. Only the options checked will be displayed.
 
 **2FA Windows Logon:** This setting determines whether the 2FA ONE credential providers defined in Logon Experience will be displayed at Windows Logon. Disabling this setting will prevent all 2FA ONE logon methods from being available for Windows Logon.
+
+**PingMe Requires User Password:** This setting determines if users, who are using the PingMe authentication method, must also user their password.
 
 **Risk Based Authentication:** Defines whether a user will be prompted to use Advanced Authentication to Logon to their Windows Profile. Advanced Authentication is any logon option other than username and password. When Risk Based Authentication (RBA) triggers, the workstation will be locked, and the username and password logon option will not be available.
 
@@ -22,9 +26,10 @@
 
 ## Shared Workstation Tab
 
-![Shared Workstation](images/policySharedWork.png)
+![Shared Workstation Tab](images/policyDescriptions_swTab.png)
 
-**Enable or Disable Shared Workstation mode**
+**Shared Workstation:**
+Enable or Disable Shared Workstation mode
 
 **Back Alpha:**
 Defines the percentage of opaqueness of the shared workstation login screen from 0 (completely transparent) to 100 (completely opaque)  
@@ -37,6 +42,8 @@ Allows you to set the path of a local .jpg .png .bmp or .gif
 
 **Inactivity Timer:**
 Defines the amount of time in minutes before Shared Workstation locks when there is no activity.
+
+**Time of Fade/Prompt Screen Before Lock(seconds):** Defines the amount of time in seconds before the Shared Workstation prompt overtakes the screen.
 
 **Lock On O/S Lock:**
 Locks Shared Workstation if the Windows desktop is locked.
@@ -111,19 +118,27 @@ Launches VMWare View and submits the logged on user's credentials
 Launches Microsoft Terminal Services Client and submits the logged on user's credentials.
 
 **RDP Server:**
-Used in conjunction with the RDP InstantConnect feature, this defines the server to be logged onto
+Used in conjunction with the RDP InstantConnect feature, this defines the server to be logged onto.
+
+**RDP - Use Multiple Monitors:** This determines whether or not RDP sessions will inhabit all available monitors in a multi-monitor configuration.
 
 **InstantConnect Lock on Exit:**
 Automatically locks shared workstation when any InstantConnect application is closed.
 
 ## Server / Sync Tab
-![Server Sync](images/policyServerSync.png)
+![Server Sync Tab](images/policyDescriptions_serverSyncTab.png)
 
 **Service URL:**
 Allows the ability to input multiple 2FA Servers for failover instances.
 
 **Service Timeout (in ms):**
-Defines the amount of time the client will continue to attempt to sync when no server can be contacted
+Defines the amount of time the client will continue to attempt to sync when no server can be contacted.
+
+**Service Low Bandwidth Timeout (in Minutes):** Defines the amount of time in minutes before which 2FA ONE server checks for Low-Bandwidth service.
+
+**Failover Check Interval (in Minutes):** Defines the amount of time in minutes before 2FA ONE server checks for Fail-Over.
+
+**Check for Service Long Response Separately:** Defines whether or not 2FA ONE server will check for a long server response and act accordingly.
 
 **Enrollment Station:**
 When enabled, prevents user data from being added to the local cache after enrollment.
@@ -145,7 +160,8 @@ NetMotion VPN Credentials
 
 
 ## Hardware Tab
-![Hardware](images/policyHardware.png)
+
+![Hardware Tab](images/policyDescriptions_hardwareTab.png)
 
 **Enable Magstripe:** Enable or disable use of Magstripe
 
@@ -159,12 +175,14 @@ NetMotion VPN Credentials
 
 **Bio Identify:**		Typically used for older biometric devices as they become non-responsive after a certain amount of time. When this is enabled, this will attempt to restart the device to make it ready when using biometrics.
 
+** Allow Unauthenticated One-To-Many Biometric Match:** Used in conjunction with Bio-key. Allows Users to enroll/register on one brand of biometric reader while authenticating against another.
+
 **RF Device:**		Allows you to specify which RF Device you are using when required. Default policy is WaveID for PCProx, can be set to GETAC to support F110 Tablet embedded reader 
 
 
 ## General Tab
-![General](images/policyGeneral.png)
 
+![General Tab](images/policyDescriptions_generalTab.png)
 **Sounds:**
 When enabled, 2FA ONE Client will produce a sound when a card is presented and read.
 
@@ -185,3 +203,9 @@ Disabled by default, this legacy feature for Windows XP prevented the 2FA ONE lo
 
 **Secured App Access Interval:**
 Defines the amount of time the application will wait on a secured app logon prompt before attempting to submit credentials again.
+
+**Client Enrollment Save Password Time (in seconds):** Defines the amount of time a client/user's password is saved before being discarded.
+
+**Enroll Smartcards on Client as Contactless:** Defines whether Smart Cards are enrolled on client machines as Contactless Cards.
+
+**Client Enrollment Type:** Defines whether client enrollments are Full or Partial.
