@@ -73,6 +73,13 @@ Role Mapping refers to the ability to map 2FA ONE Server Roles to Active Directo
 
 Auto Enroll refers to the ability to allow users which already exist in Active Directory to automatically be enrolled in 2FA ONE Server upon first access to the 2FA ONE Server User Portal. 
 
+Auto Enrollment Options:
+
+* Enable Auto-Enrollment of users with Integrated Windows Authentication
+* SELECT Default Authentication Set (Default is Contactless + Emergency Access
+* SELECT Default Role (Default is User)
+* SELECT Default Language (Default is English)
+
 ###Update Database Settings
 
 Use this link to update settings related to your database, such as: Server Name, Database Name, ID, and Password.
