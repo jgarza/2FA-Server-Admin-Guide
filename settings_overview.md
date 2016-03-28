@@ -99,6 +99,8 @@ Two accounts will be created on 2FA ONE Server, one with the local account infor
 ### Allow Self-Service of Reset Credential During Validation
 This enables a link on validation pages that allows a user to state they have forgotten that credential (such as “I forgot my PIN”. Clicking it will immediately put the user in reset credential state.
 
+
+
 ### Send an E-Mail When Sending an SMS
 
 ### Administrator's Portal
