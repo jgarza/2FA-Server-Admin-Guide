@@ -6,11 +6,15 @@ Once the cardholder is identified, the credential can be returned to the owner, 
 
 The Recycle Card Utility is installed with 2FA One Server and an OMNIKEY reader must be connected to the 2FA One Server. 
 
-To recycle a card you must run the utility locally from: <drive>:\Program Files\2FA\One Server\tools\RecycleCard.exe
+To recycle a card you must run the utility locally from: 
+
+**Program Files\2FA\One Server\tools\RecycleCard.exe**
 
 To Recycle a card do the following:
 
-* Navigate to the install folder (<drive>:\Program Files\2FA\ONE Server\Tools\RecycleCard)
+* Navigate to the install folder:
+
+**Program Files\2FA\ONE Server\Tools\RecycleCard**
 * Right click on RecycleCard application and select Run as administrator.
 * Insert a contactless or contact smart card.
 * Click the Connect button.
