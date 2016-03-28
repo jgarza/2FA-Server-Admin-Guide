@@ -63,7 +63,6 @@
    * [Deprovision Templates](sso_deprovision_templates.md)
 * [Administering 2FA ONE: Settings](settings.md)
    * [Settings Overview](settings_overview.md)
-       * [Require PIN for PingMe](pingme_pin.md)
    * [Global Settings](settings_global.md)
    * [Alerts](settings_alerts.md)
    * [Publish URL](settings_publish_url.md)
