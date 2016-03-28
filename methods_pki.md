@@ -43,7 +43,7 @@ The user will continue to receive notifications for each of the increments confi
 
 **Note:** The user must have a valid email address configured within 2FA ONE Server for this feature to work. 
 
-Also, 2FA ONE Server must be configured to support emails, as outlined in the Install and Setup Guide
+**Also Please Note:** 2FA ONE Server must be configured to support emails, as outlined in the Install and Setup Guide
 
 ### PIN Policies
 
@@ -97,8 +97,11 @@ In the example the New PIN Policy name is “Sample Policy” and the following 
 
 ![Edit Cert Set](images/editCertificateSet.png)
 
-2.	Under Certificate Template Name choose the first certificate template that you wish to assign to the set. For certificates issued directly to a smart card (for example 2FA ONE Smart card), check the box labelled Enroll directly on a smart card. Checking this box will also set the Cryptographic Service Provider Name to Use smart card provider.
+2.	Under Certificate Template Name choose the first certificate template that you wish to assign to the set. 
+3.	For certificates issued directly to a smart card (for example 2FA ONE Smart card), check the box labelled Enroll directly on a smart card.
+  4.	Checking this box will also set the Cryptographic Service Provider Name to Use smart card provider.
 3.	Click Add to add the desired template to the Certificate1 will be installed on the user’s smart card. Once you have done this, the template will appear above in the list of Certificate Templates included in this Certificate Set. 
-  4.	Note: Only check the Enroll directly on a smart card checkbox for templates that need the private key generated on the smart card itself, and do not require the key to be archived. Certificate templates that require key archival and recovery, such as encryption certificates, should not have this checkbox checked. 
+  4.	**Note:** Only check the Enroll directly on a smart card checkbox for templates that need the private key generated on the smart card itself, and do not require the key to be archived. Certificate templates that require key archival and recovery, such as encryption certificates, should not have this checkbox checked. 
   5.	Even though this checkbox is not checked, the certificate will still be imported to the user’s smart card when the issuance process is complete. 
-4.	You may repeat step #3 to add multiple certificate templates to this Certificate Set. Be sure to click Add between each template. *Click Save when done.*
+4.	You may repeat step #3 to add multiple certificate templates to this Certificate Set. Be sure to click Add between each template.
+5.	Click SAVE when complete.
