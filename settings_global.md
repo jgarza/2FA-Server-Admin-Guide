@@ -66,30 +66,48 @@ When 2FA ONE Server is deployed with multiple credentials being managed, any aut
 
 ### Role Mapping
 
-Role Mapping refers to the ability to map 2FA ONE Server Roles to Active Directory groups. This has been explained in detail under section **XXXXXXXX****
+Role Mapping refers to the ability to map 2FA ONE Server Roles to Active Directory groups. This has been explained in detail under section 8.4.
 
 
 ### Auto Enroll
 
 Auto Enroll refers to the ability to allow users which already exist in Active Directory to automatically be enrolled in 2FA ONE Server upon first access to the 2FA ONE Server User Portal. 
 
-Auto Enrollment Options:
-
-* Enable Auto-Enrollment of users with Integrated Windows Authentication
-* SELECT Default Authentication Set (Default is Contactless + Emergency Access
-* SELECT Default Role (Default is User)
-* SELECT Default Language (Default is English)
-
 ###Update Database Settings
 
 Use this link to update settings related to your database, such as: Server Name, Database Name, ID, and Password.
+
+
 
 ### Update Mail Server Settings
 
 Use this link to update settings related to your mail server, such as: SMTP Server Name, Port, Default “From” Address, User name, and Password.
 
+### Allow PingMe for OTP Users
 
+### Require PIN for PingMe
 
+### Allow Unauthenticated One-To-Many Biometric Match
 
+### Allow Synchronization of non-domain users
+Allow synchronization of non-domain users is enabled by default. This setting enables administrators to limit the ability of non-domain users to synchronize their data to 2FA ONE Server. This setting applies to local users and users located in other domains. 
+
+**Note: **	Synchronization is limited by the domain user name and password pair. In the event a local account contains the same user name and password pair as one located in the domain (local = user1/password and domain - user1/password) the users data will synchronize to 2FA ONE Server. 
+
+Two accounts will be created on 2FA ONE Server, one with the local account information and one with the domain account information. Administrators can distinguish between the two accounts based upon the domain representation in the user look-up menu.
+
+### Allow Self-Service of Reset Credential During Validation
+This enables a link on validation pages that allows a user to state they have forgotten that credential (such as “I forgot my PIN”. Clicking it will immediately put the user in reset credential state.
+
+### Send an E-Mail When Sending an SMS
+
+### Administrator's Portal
+
+Type the permanent URL of your 2FA ONE Server Admin portal. This will be used by the system in email alerts and auth code notifications to direct users or administrators to the appropriate URL.
+
+http://[servername]/ONE/admin_portal/default.aspx
+
+### External Provisioning Link for Mobile Clients
+http://[servername]/ONEService/Provision.aspx
 
 
