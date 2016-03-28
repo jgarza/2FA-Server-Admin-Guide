@@ -82,3 +82,23 @@ Use this link to update settings related to your database, such as: Server Name,
 ### Update Mail Server Settings
 
 Use this link to update settings related to your mail server, such as: SMTP Server Name, Port, Default “From” Address, User name, and Password.
+
+### Allow PingMe for OTP Users
+
+### Require PIN for PingMe
+
+### Allow Unauthenticated One-To-Many Biometric Match
+
+### Allow Synchronization of non-domain users
+
+### Allow Self-Service of Reset Credential During Validation
+
+### Send an E-Mail When Sending an SMS
+
+### Administrator's Portal
+http://[servername]/ONE/admin_portal/default.aspx
+
+### External Provisioning Link for Mobile Clients
+http://[servername]/ONEService/Provision.aspx
+
+
