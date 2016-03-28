@@ -1,6 +1,6 @@
 # One Time Password (OTP) Method
 
-The One Time Password (or OTP for abbreviation) submenu enables you to configure profiles and policies for OTP Tokens for logon. 
+The One Time Password (or OTP for abbreviation) submenu enables you to configure profiles and policies for logon using physical OTP Tokens or our 2FA ONE Mobile app.
 
 Within the OTP submenu there are six submenus, they are:
 
