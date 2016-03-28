@@ -72,7 +72,7 @@
        * [Administrators Portal URL](admin_portal_url.md)
        * [External Provisioning Link for Mobile Clients](external_provision.md)
    * [Global Settings](settings_global.md)
-       * Suppress Auth Codes
+       * [Suppress Auth Codes](suppress_auth_codes.md)
    * [Alerts](settings_alerts.md)
    * [Publish URL](settings_publish_url.md)
    * [User Licenses](user_licenses.md)
