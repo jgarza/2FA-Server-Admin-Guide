@@ -88,7 +88,7 @@ If you elected to globally enable the Authorization Code, after you have saved y
 
 This only appears when 2FA ONE Server has detected changes that would normally require an authorization code to be presented by the user. You can either read or e-mail it the Authorization Code to the user.
 
-Note: In the event an administrator makes a change within Edit User and clicks the “X” button on the top-right of the pop-up the application will warn the administrator that changes have not been saved.
+**Note:** In the event an administrator makes a change within Edit User and clicks the “X” button on the top-right of the pop-up the application will warn the administrator that changes have not been saved.
 
 **Note:** The setting that allows you to email an Authorization Code is configured during the installation and setup process. Information on completing this setup is provided in the Installation and Setup Guide. 
 
