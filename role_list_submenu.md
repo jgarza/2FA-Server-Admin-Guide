@@ -2,7 +2,7 @@
 
 The Role List sub-menu provides an overview of the roles defined within the system. 
 
-By default, there are five predefined roles:
+By default, there are five predefined roles within 2FA ONE:
 
 1.	ONE_sys_admin
 2.	Admin
