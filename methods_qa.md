@@ -1,8 +1,9 @@
 # Question & Answer Method
 
+This is also often referred to as **Knowledge-Based Authentication** or **Emergency Access**
+
 The Question & Answer sub-menu enables you to establish, configure, enable, and maintain Q&A so that users can authenticate to a system using previously-established Emergency Access, user-selected or administrator defined questions. 
 
-This is also often referred to as Knowledge-Based Authentication.
 
 ![QA Profile List](images/qaProfileList.png)
 
