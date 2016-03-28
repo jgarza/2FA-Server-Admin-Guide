@@ -64,7 +64,6 @@
 * [Administering 2FA ONE: Settings](settings.md)
    * [Settings Overview](settings_overview.md)
        * [Require PIN for PingMe](pingme_pin.md)
-       * [Allow Self-Service of Reset Credential During Validation](self_service_reset_allow.md)
    * [Global Settings](settings_global.md)
    * [Alerts](settings_alerts.md)
    * [Publish URL](settings_publish_url.md)
