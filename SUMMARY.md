@@ -66,7 +66,6 @@
        * [Require PIN for PingMe](pingme_pin.md)
        * [Allow Synchronization of Non-Domain Users](synchronization_allow.md)
        * [Allow Self-Service of Reset Credential During Validation](self_service_reset_allow.md)
-       * [Send an E-Mail When Sending an SMS](email_sms.md)
    * [Global Settings](settings_global.md)
    * [Alerts](settings_alerts.md)
    * [Publish URL](settings_publish_url.md)
