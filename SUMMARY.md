@@ -64,7 +64,6 @@
 * [Administering 2FA ONE: Settings](settings.md)
    * [Settings Overview](settings_overview.md)
        * [Require PIN for PingMe](pingme_pin.md)
-       * [Allow Unauthenticated One-To-Many Biometric Match](biometric_one2many.md)
        * [Allow Synchronization of Non-Domain Users](synchronization_allow.md)
        * [Allow Self-Service of Reset Credential During Validation](self_service_reset_allow.md)
        * [Send an E-Mail When Sending an SMS](email_sms.md)
