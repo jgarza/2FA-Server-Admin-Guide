@@ -62,7 +62,6 @@
    * [Manage Templates](sso_templates.md)
    * [Deprovision Templates](sso_deprovision_templates.md)
 * [Administering 2FA ONE: Settings](settings.md)
-   * [Settings Overview](settings_overview.md)
    * [Global Settings](settings_global.md)
    * [Alerts](settings_alerts.md)
    * [Publish URL](settings_publish_url.md)
