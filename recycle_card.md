@@ -4,7 +4,9 @@ The Recycle Card Utility provides an administrator the ability to identify owner
 
 Once the cardholder is identified, the credential can be returned to the owner, or the card can be cancelled within 2FA One Server, or if the cardholder is not in the Steady State, the Recycle Card Utility can format and reset the card to factory defaults so that it may be re-issued to a new cardholder.
 
-The Recycle Card Utility is installed with 2FA One Server and an OMNIKEY reader must be connected to the 2FA One Server. To recycle a card you must run the utility locally from: <drive>:\Program Files\2FA\One Server\tools\RecycleCard.exe
+The Recycle Card Utility is installed with 2FA One Server and an OMNIKEY reader must be connected to the 2FA One Server. 
+
+To recycle a card you must run the utility locally from: <drive>:\Program Files\2FA\One Server\tools\RecycleCard.exe
 
 To Recycle a card do the following:
 
