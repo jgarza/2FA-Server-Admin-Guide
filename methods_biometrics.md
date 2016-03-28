@@ -4,7 +4,7 @@ The Biometric submenu enables you to configured profiles and policies for Biomet
 
 ![Biometric List](images/biometricList.png)
 
-Within the Biometric menu, there are four submenus.
+Within the Biometric menu, there are four sub-menus.
 
 1.	**Profile List** – Provides an overview of the configured Contactless Profiles, including the configured PIN
 policy, card behavior options, and PIN required/not-required settings.
