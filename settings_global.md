@@ -66,7 +66,7 @@ When 2FA ONE Server is deployed with multiple credentials being managed, any aut
 
 ### Role Mapping
 
-Role Mapping refers to the ability to map 2FA ONE Server Roles to Active Directory groups. This has been explained in detail under section 8.4.
+Role Mapping refers to the ability to map 2FA ONE Server Roles to Active Directory groups. This has been explained in detail under section **XXXXXXXX****
 
 
 ### Auto Enroll
