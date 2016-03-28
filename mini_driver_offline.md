@@ -1,7 +1,14 @@
 # Mini-Driver Smart Card Offline Un-Block
 
 2FA ONE Server provides the capability for a user to remotely unblock a mini-driver contact smart card that was enrolled via 2FA ONE Server. 
-Requirements: The user must have enrolled via 2FA ONE Server. The user must have a mini-driver contact smart card. The user must have access to a Microsoft® Vista or newer operating system. The operating system must have the mini-driver installed locally. Also, Active Directory group policy must be set to “Allow Integrated Unblock screen to be displayed at the time of logon”.
+
+**Requirements: **
+
+* The user must have enrolled via 2FA ONE Server. 
+* The user must have a mini-driver contact smart card. 
+* The user must have access to a Microsoft® Vista or newer operating system. 
+* The operating system must have the mini-driver installed locally. 
+* Also, Active Directory group policy must be set to “Allow Integrated Unblock screen to be displayed at the time of logon”.
 
 ### Process:
 The user with a blocked contact smart card will insert the card in to a smart card reader connected to a system running Microsoft® Vista or newer with the mini driver installed. 
