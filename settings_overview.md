@@ -92,6 +92,7 @@ Use this link to update settings related to your mail server, such as: SMTP Serv
 ### Allow Synchronization of non-domain users
 
 ### Allow Self-Service of Reset Credential During Validation
+This enables a link on validation pages that allows a user to state they have forgotten that credential (such as “I forgot my PIN”. Clicking it will immediately put the user in reset credential state.
 
 ### Send an E-Mail When Sending an SMS
 
