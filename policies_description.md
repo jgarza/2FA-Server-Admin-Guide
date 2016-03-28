@@ -2,7 +2,7 @@
 
 ## Logon Tab
 
-![Logon Tab](images/policyLogonTab.png)
+![Logon Tab](policyDescriptions_lognTab.png)
 
 **Logon Experience:** Defines the logon tile options a user will be presented with in Windows logon and SharedWorkstation. Only the boxes checked will be displayed.
 
